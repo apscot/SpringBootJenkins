@@ -12,4 +12,8 @@ public class ControllerClass {
 	public String getValue() {
 		return "Hello World!";
 	}
+	@GetMapping("HelloJenkins")
+	public String getValueJenkins() {
+		return "Hello Jenkins";
+	}
 }
